@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0N3-Y2-lBG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -50,6 +50,11 @@
                                 <state key="normal" title="C O N T I N U A R">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="19"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELECCIONA TU PAIS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwU-gB-QwV">
                                 <rect key="frame" x="128.5" y="582" width="157" height="20"/>
@@ -228,6 +233,11 @@
                                     <constraint firstItem="IHz-P8-IHq" firstAttribute="top" secondItem="hLj-DZ-Oa9" secondAttribute="top" id="ogr-WN-Ggk"/>
                                     <constraint firstItem="IHz-P8-IHq" firstAttribute="leading" secondItem="hLj-DZ-Oa9" secondAttribute="leading" constant="8" id="rBj-mu-rGF"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tiY-WV-mxq">
                                 <rect key="frame" x="239" y="384" width="155" height="148"/>
@@ -263,6 +273,11 @@
                                     <constraint firstItem="Ucj-yg-L3i" firstAttribute="top" secondItem="tiY-WV-mxq" secondAttribute="top" id="ubz-xQ-qaM"/>
                                     <constraint firstItem="sPP-UV-1iU" firstAttribute="top" secondItem="Ucj-yg-L3i" secondAttribute="bottom" constant="3" id="zLZ-FY-SUP"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YTi-JL-F51">
                                 <rect key="frame" x="20" y="563" width="155" height="148"/>
@@ -298,6 +313,11 @@
                                     <constraint firstItem="wbc-iN-Azy" firstAttribute="leading" secondItem="YTi-JL-F51" secondAttribute="leading" constant="8" id="ndb-3b-Oe3"/>
                                     <constraint firstAttribute="trailing" secondItem="wBu-xW-yhB" secondAttribute="trailing" constant="8" id="s6F-vb-NNf"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath=" cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fz5-5t-WJY">
                                 <rect key="frame" x="20" y="815" width="374" height="33"/>

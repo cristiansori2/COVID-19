@@ -12,7 +12,7 @@
 		17029575242D614F00AD74B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17029574242D614F00AD74B1 /* ViewController.swift */; };
 		1702957A242D615000AD74B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17029579242D615000AD74B1 /* Assets.xcassets */; };
 		1702957D242D615000AD74B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1702957B242D615000AD74B1 /* LaunchScreen.storyboard */; };
-		9C85E1E9242D3EE3001B0268 /* Pantalla_principal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C85E1E8242D3EE3001B0268 /* Pantalla_principal.storyboard */; };
+		9C85E1E9242D3EE3001B0268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C85E1E8242D3EE3001B0268 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +23,7 @@
 		17029579242D615000AD74B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1702957C242D615000AD74B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1702957E242D615000AD74B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C85E1E8242D3EE3001B0268 /* Pantalla_principal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pantalla_principal.storyboard; sourceTree = "<group>"; };
-		9C85E1EA242D48F2001B0268 /* COVID-19.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "COVID-19.entitlements"; sourceTree = "<group>"; };
+		9C85E1E8242D3EE3001B0268 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +56,13 @@
 		1702956F242D614F00AD74B1 /* COVID-19 */ = {
 			isa = PBXGroup;
 			children = (
-				9C85E1EA242D48F2001B0268 /* COVID-19.entitlements */,
 				17029570242D614F00AD74B1 /* AppDelegate.swift */,
 				17029572242D614F00AD74B1 /* SceneDelegate.swift */,
 				17029574242D614F00AD74B1 /* ViewController.swift */,
 				17029579242D615000AD74B1 /* Assets.xcassets */,
 				1702957B242D615000AD74B1 /* LaunchScreen.storyboard */,
 				1702957E242D615000AD74B1 /* Info.plist */,
-				9C85E1E8242D3EE3001B0268 /* Pantalla_principal.storyboard */,
+				9C85E1E8242D3EE3001B0268 /* Main.storyboard */,
 			);
 			path = "COVID-19";
 			sourceTree = "<group>";
@@ -128,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1702957D242D615000AD74B1 /* LaunchScreen.storyboard in Resources */,
-				9C85E1E9242D3EE3001B0268 /* Pantalla_principal.storyboard in Resources */,
+				9C85E1E9242D3EE3001B0268 /* Main.storyboard in Resources */,
 				1702957A242D615000AD74B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,15 +278,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "COVID-19/COVID-19.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 4VAFRTF596;
 				INFOPLIST_FILE = "COVID-19/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "lem1s.COVID-19";
+				PRODUCT_BUNDLE_IDENTIFIER = "artingcreep.COVID-19";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,15 +299,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "COVID-19/COVID-19.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 4VAFRTF596;
 				INFOPLIST_FILE = "COVID-19/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "lem1s.COVID-19";
+				PRODUCT_BUNDLE_IDENTIFIER = "artingcreep.COVID-19";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
