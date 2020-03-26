@@ -10,9 +10,9 @@
 		17029571242D614F00AD74B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17029570242D614F00AD74B1 /* AppDelegate.swift */; };
 		17029573242D614F00AD74B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17029572242D614F00AD74B1 /* SceneDelegate.swift */; };
 		17029575242D614F00AD74B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17029574242D614F00AD74B1 /* ViewController.swift */; };
-		17029578242D614F00AD74B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17029576242D614F00AD74B1 /* Main.storyboard */; };
 		1702957A242D615000AD74B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17029579242D615000AD74B1 /* Assets.xcassets */; };
 		1702957D242D615000AD74B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1702957B242D615000AD74B1 /* LaunchScreen.storyboard */; };
+		9C85E1E9242D3EE3001B0268 /* Pantalla_principal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C85E1E8242D3EE3001B0268 /* Pantalla_principal.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		17029570242D614F00AD74B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17029572242D614F00AD74B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		17029574242D614F00AD74B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		17029577242D614F00AD74B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17029579242D615000AD74B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1702957C242D615000AD74B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1702957E242D615000AD74B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C85E1E8242D3EE3001B0268 /* Pantalla_principal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pantalla_principal.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,10 @@
 				17029570242D614F00AD74B1 /* AppDelegate.swift */,
 				17029572242D614F00AD74B1 /* SceneDelegate.swift */,
 				17029574242D614F00AD74B1 /* ViewController.swift */,
-				17029576242D614F00AD74B1 /* Main.storyboard */,
 				17029579242D615000AD74B1 /* Assets.xcassets */,
 				1702957B242D615000AD74B1 /* LaunchScreen.storyboard */,
 				1702957E242D615000AD74B1 /* Info.plist */,
+				9C85E1E8242D3EE3001B0268 /* Pantalla_principal.storyboard */,
 			);
 			path = "COVID-19";
 			sourceTree = "<group>";
@@ -126,8 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1702957D242D615000AD74B1 /* LaunchScreen.storyboard in Resources */,
+				9C85E1E9242D3EE3001B0268 /* Pantalla_principal.storyboard in Resources */,
 				1702957A242D615000AD74B1 /* Assets.xcassets in Resources */,
-				17029578242D614F00AD74B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		17029576242D614F00AD74B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17029577242D614F00AD74B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1702957B242D615000AD74B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
