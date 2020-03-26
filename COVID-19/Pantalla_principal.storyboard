@@ -97,16 +97,75 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MY-Mk-ehe">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="97"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COVID-19 STATUS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1c-sq-47t">
-                                        <rect key="frame" x="114" y="45" width="187" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID-19 STATUS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1c-sq-47t">
+                                        <rect key="frame" x="113.5" y="45" width="187" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="187" id="RnL-hW-9m7"/>
+                                            <constraint firstAttribute="height" constant="37" id="wEm-gQ-J5q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fg9-Ws-gSK">
+                                        <rect key="frame" x="8" y="39" width="50" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scM-18-5BS">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="vPd-Qm-XKN">
+                                                <rect key="frame" x="10" y="11.5" width="30" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="27" id="3eN-1c-dAy"/>
+                                                    <constraint firstAttribute="width" constant="30" id="gpM-q3-5W5"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="vPd-Qm-XKN" firstAttribute="centerX" secondItem="fg9-Ws-gSK" secondAttribute="centerX" id="AYd-bC-26n"/>
+                                            <constraint firstItem="scM-18-5BS" firstAttribute="leading" secondItem="fg9-Ws-gSK" secondAttribute="leading" id="Kme-b9-rBw"/>
+                                            <constraint firstAttribute="width" constant="50" id="ce7-HF-QAc"/>
+                                            <constraint firstAttribute="height" constant="50" id="dRy-Ny-CP5"/>
+                                            <constraint firstItem="vPd-Qm-XKN" firstAttribute="centerY" secondItem="fg9-Ws-gSK" secondAttribute="centerY" id="lBM-4Z-glh"/>
+                                            <constraint firstAttribute="trailing" secondItem="scM-18-5BS" secondAttribute="trailing" id="ov4-Fu-uxW"/>
+                                            <constraint firstItem="scM-18-5BS" firstAttribute="top" secondItem="fg9-Ws-gSK" secondAttribute="top" id="t6K-7U-84v"/>
+                                            <constraint firstAttribute="bottom" secondItem="scM-18-5BS" secondAttribute="bottom" id="z7t-NZ-65f"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTY-8t-GsY">
+                                        <rect key="frame" x="348" y="39" width="50" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cg-OZ-tRB">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Refrescar" translatesAutoresizingMaskIntoConstraints="NO" id="GKV-dQ-4EC">
+                                                <rect key="frame" x="10" y="11.5" width="30" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="27" id="az8-HI-YDV"/>
+                                                    <constraint firstAttribute="width" constant="30" id="xUQ-at-5nO"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="8cg-OZ-tRB" secondAttribute="bottom" id="1EO-0f-qsu"/>
+                                            <constraint firstItem="8cg-OZ-tRB" firstAttribute="top" secondItem="bTY-8t-GsY" secondAttribute="top" id="9iA-wl-s8a"/>
+                                            <constraint firstAttribute="trailing" secondItem="8cg-OZ-tRB" secondAttribute="trailing" id="EJw-T0-FgK"/>
+                                            <constraint firstAttribute="width" constant="50" id="JKb-6O-ffZ"/>
+                                            <constraint firstItem="GKV-dQ-4EC" firstAttribute="centerY" secondItem="bTY-8t-GsY" secondAttribute="centerY" id="UyT-ug-rfb"/>
+                                            <constraint firstItem="GKV-dQ-4EC" firstAttribute="centerX" secondItem="bTY-8t-GsY" secondAttribute="centerX" id="Z0I-ZR-Rwk"/>
+                                            <constraint firstAttribute="height" constant="50" id="dOb-xx-5jB"/>
+                                            <constraint firstItem="8cg-OZ-tRB" firstAttribute="leading" secondItem="bTY-8t-GsY" secondAttribute="leading" id="pVU-ja-5Za"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="fg9-Ws-gSK" secondAttribute="bottom" constant="8" id="5UG-Lo-3MR"/>
+                                    <constraint firstAttribute="bottom" secondItem="Q1c-sq-47t" secondAttribute="bottom" constant="15" id="GiY-3v-YMe"/>
+                                    <constraint firstAttribute="trailing" secondItem="bTY-8t-GsY" secondAttribute="trailing" constant="16" id="Ple-0P-wgB"/>
+                                    <constraint firstAttribute="bottom" secondItem="bTY-8t-GsY" secondAttribute="bottom" constant="8" id="Z6l-Hz-ocz"/>
+                                    <constraint firstItem="fg9-Ws-gSK" firstAttribute="leading" secondItem="7MY-Mk-ehe" secondAttribute="leading" constant="8" id="lzz-F2-lVs"/>
+                                    <constraint firstItem="Q1c-sq-47t" firstAttribute="centerX" secondItem="7MY-Mk-ehe" secondAttribute="centerX" id="yNg-7p-MSo"/>
                                     <constraint firstAttribute="height" constant="97" id="zY1-Bn-Ka9"/>
                                 </constraints>
                             </view>
@@ -283,6 +342,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Refrescar" width="37.5" height="37.5"/>
+        <image name="Regresar" width="39" height="39"/>
         <image name="coronavirus-banner-580px" width="580" height="150"/>
     </resources>
 </document>
